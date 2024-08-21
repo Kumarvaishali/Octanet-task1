@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn Items</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.webp" alt="Unicorn Items Logo">
+        </div>
+        <div class="shop-title">
+            <h1>Unicorn Items</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <img src="./img/hero" alt="Delicious Ice Cream">
+        <div class="hero-text">
+            <h1>Unicorns Universe</h1>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </section>
+    <section class="about-us" id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>Welcome to our Unicorn items website! We offer all kinds of unicorn products for unicorn lovers. You can search for your desired product, and we will deliver it to your doorstep.</p>
+            <div class="about-images">
+                <img src="./img/about" alt="Ice Cream Making Process">
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="menu-container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="./img/pic1" alt="Unicorn Pencil">
+                    <h3>Unicorn Pencil</h3>
+                    <p>Smooth and Attractive pencil.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./img/pic2" alt="Unicorn Writing pad">
+                    <h3>Unicorn Writing pad</h3>
+                    <p>Write like a Unicorn.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./img/pic3" alt="school bag">
+                    <h3>Unicorn bag</h3>
+                    <p>Hang and fly towards your future.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./img/pic4" alt="Unicorn keychain">
+                    <h3>Unicorn keychain</h3>
+                    <p>Be Unique and shining.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./img/pic5" alt="Unicorn Story books">
+                    <h3>Unicorn Story books</h3>
+                    <p>Read and Learn the facts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Reach out to us!</p>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <div class="order-container">
+            <h2>Order Online</h2>
+            <p>Place your order online and enjoy our Products!</p>
+            <form action="#" method="POST" class="order-form">
+                <label for="product">Select Your Items:</label><br>
+                <select id="product" name="product" required>
+                    <option value="">Choose a Product...</option>
+                    <option value="Unicorn Pencil">Unicorn Pencil</option>
+                    <option value="Unicorn Writing pad">Unicorn Writing pad</option>
+                    <option value="school bag">school bag</option>
+                    <option value="Unicorn keychain">Unicorn keychain</option>
+                    <option value="Unicorn Story books">Unicorn Story books</option>
+                </select><br><br>
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="address">Your Address:</label><br>
+                <input type="text" id="address" name="address" placeholder="Your Address" required><br><br>
+                <label for="phone">Your Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <button type="submit" class="submit-button">Place Order</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Copyright Lohith || All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="./img/facebook.png.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="./img/Instaram.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="./img/twitter.gif" alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
